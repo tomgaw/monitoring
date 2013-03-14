@@ -81,7 +81,6 @@
 		<jar destfile="${dist.dir}/${context.project.name}.war" basedir="${build.dir}/${context.project.name}" />
 	</target>
 
-    /target>
 
     <target name="set.tomcatdeploy" >
 		<taskdef name="deploy" classname="org.apache.catalina.ant.DeployTask" />
